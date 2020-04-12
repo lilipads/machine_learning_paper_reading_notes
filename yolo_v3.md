@@ -29,6 +29,3 @@ concepts to read up later:
 
 reference: 
 https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b <- this does a much better job of summarization of my notes.
-
-
-Language modeling: given event sequence, predict next event
