@@ -6,7 +6,7 @@ https://arxiv.org/pdf/1909.08792.pdf
 
 * published by Waymo
 * background: don't want to use fancy models for all cars. this algo ranks the importance of all the agents (cars, pedestrians, bycycles, etc), and prioritizes the ones that should be later looked at by fancy models.
-* overall impression: novel in the sense that it repurposes existing algorithms (e.g. CNN, GBDT) and uses them in a different setting.
+* overall impression: main contribution is that it repurposes existing algorithms (e.g. CNN, GBDT) and uses them in a different setting.
 
 highlights:
 1. data generation: self-supervised learning, does not need human labelling. It's sort of an ablation test using the simulator. 
