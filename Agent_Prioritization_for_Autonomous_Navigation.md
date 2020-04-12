@@ -16,7 +16,7 @@ This data generation depends on the planner implementation.
 
 2. loss function: pairwise logistical loss. If a is correctly predicted to be more important than b, then the loss is 0. If a should be
 more important than b but is predicted otherwise, then it's log(1 + exp(score of b -  score of a)). [question: why +1? why not just score of b - score of a?]
-This pairwise loss turns out to be better than pointwise loss as measured by NDCG. Skip saming pairs that are of the same relevance (because relevance is discretized).
+This pairwise loss turns out to be better than pointwise loss as measured by experiments. Sampling: skip pairs that are of the same relevance (because relevance is discretized).
 
 3. method:
 a) CNN: a stack of 10 "images". The "image" is handcrafted, for example, lanes in the scene, snapshot of locations / velocities of all agents, etc.
