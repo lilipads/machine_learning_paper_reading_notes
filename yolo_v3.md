@@ -4,7 +4,7 @@ YOLOv3: An Incremental Improvement
 https://pjreddie.com/media/files/papers/YOLOv3.pdf
 
 * 2018 work
-* used for real-time object detection (predict bounding boxes). faster but less accurate than other STOA methods. "It’s 
+* used for real-time object detection (predict bounding boxes). faster but less accurate than other SOTA methods. "It’s 
 not as great on the COCO average AP between .5 and .95 IOU metric. But it’s very good on the old detection metric of .5 IOU."
 => so seems reasonably reliable to identify object but not as good at precise localization. Maybe it is good to be applied
 to low-requirement rough pass object detection tasks or be used as a "first phase" filter. 
