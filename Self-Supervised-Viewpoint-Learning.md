@@ -2,11 +2,12 @@
 
 4/24/2020
 
+About the paper:
+
 https://research.nvidia.com/sites/default/files/pubs/2020-03_Self-Supervised-Viewpoint-Learning/SSV-CVPR2020.pdf
 
-paper: from nvidia, CVPR2020
+from nvidia, CVPR2020
 
-need to re-read this in future to fully understand
 
 ## Gist:
 goal is to predict viewpoint of an object (car, human, bus, etc). Uses GAN to achieve self-supervision. Result is better than other 
