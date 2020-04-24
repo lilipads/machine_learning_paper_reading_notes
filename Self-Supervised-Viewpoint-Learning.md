@@ -1,5 +1,6 @@
 # Self-Supervised Viewpoint Learning From Image Collections
 
+4/24/2020
 
 https://research.nvidia.com/sites/default/files/pubs/2020-03_Self-Supervised-Viewpoint-Learning/SSV-CVPR2020.pdf
 
