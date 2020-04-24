@@ -1,4 +1,4 @@
-Self-Supervised Viewpoint Learning From Image Collections
+# Self-Supervised Viewpoint Learning From Image Collections
 
 
 https://research.nvidia.com/sites/default/files/pubs/2020-03_Self-Supervised-Viewpoint-Learning/SSV-CVPR2020.pdf
@@ -7,17 +7,19 @@ paper: from nvidia, CVPR2020
 
 need to re-read this in future to fully understand
 
-Gist: goal is to predict viewpoint of an object (car, human, bus, etc). Uses GAN to achieve self-supervision. Result is better than other 
+## Gist:
+goal is to predict viewpoint of an object (car, human, bus, etc). Uses GAN to achieve self-supervision. Result is better than other 
 self-supervised methods but worse than supervised methods.
 
-Highlight: 
+## Highlight: 
 1. symmetry loss - horizontally flipped images must have opposite viewpoints (in 2 of the 3 axis). We can take advantage of this
 property to encode a loss to train the network.
 
 2. uses GAN to self-learn 
 
-Architecture:
-1. analysis network (V): "the judger". This network will predict the viewpoint and style of a real image. The syntehsis network will
+## Architecture:
+### 1. analysis network (V): 
+"the judger". This network will predict the viewpoint and style of a real image. The syntehsis network will
  synthesize an artificial image based on the predicted viewpoint and style. This analysis network needs to:
  
  a) minimize the differences between the real image and synthesized image (cosine distance between the convnet features)
@@ -32,7 +34,8 @@ Architecture:
  The goal of these losses is to train the network to predict the style and viewpoint better. (question: is d relevant to this goal?)
  
 
-2. synthesis network (S): goal is to synthesize realistic images. Input is a view point feature and a style feature. The view point feature
+### 2. synthesis network (S):
+goal is to synthesize realistic images. Input is a view point feature and a style feature. The view point feature
 gets rotatated along the 3 axes in a 3D convnet. Losses:
 
 a) fool the discriminator as much as it can (I think?)
@@ -59,5 +62,5 @@ for face viewpoint, after fixing the head position, eyes can still move around. 
 discrinimate between different head poses, not the actual direction of the gaze?
 
 
-Further reading: 
+## Further reading: 
 InfoGAN [7], StyleGAN [27] and HoloGAN [41]
