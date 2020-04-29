@@ -9,3 +9,4 @@ Inspired by [Daniel Takeshi][1] and [Patrick Langechuan Liu][2]. The notes are j
 * [YOLOv3: An Incremental Improvement](https://github.com/lilipads/machine_learning_paper_reading_notes/blob/master/yolo_v3.md)
 * [Agent Prioritization for Autonomous Navigation](https://github.com/lilipads/machine_learning_paper_reading_notes/blob/master/Agent_Prioritization_for_Autonomous_Navigation.md)
 * [Self-Supervised Viewpoint Learning From Image Collections](https://github.com/lilipads/machine_learning_paper_reading_notes/blob/master/Self-Supervised-Viewpoint-Learning.md)
+* [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://github.com/lilipads/machine_learning_paper_reading_notes/blob/master/ChauffeurNet.md)
