@@ -4,11 +4,11 @@ paper: https://arxiv.org/pdf/1812.03079.pdf, by Waymo
 
 4/29 (written before joining Waymo; there is no insider knowledge here)
 
-## goal
+## Goal
 use imitation learning to do mid-to-mid-level (instead of end-to-end) *planning* for autonomous driving -- i.e.
 what the ego car should do next. The model also handles some prediction tasks and perception tasks to reach this goal.
 
-## key ideas:
+## Key Ideas
 0. mid-to-mid level: end-to-end would be to take the input from the raw sensor data (e.g. raw camera input, etc). Here, it takes
 processed inputs. The advantage of mid-to-mid level is a) with imposed heuristics, it's more tractable, b) it's easier to generate
 more samples from simulations (would be harder to synthesize camera images of a parked car in a slightly different position, but easy to
