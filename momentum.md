@@ -14,7 +14,7 @@ convergence is faster when convergence rate is low; so don't interpret convergen
 Also, distill.pub is great. 
 
 ## TL;DR
-0. Introducing eigenspace: Normally, the dimensions in gradient descent is coupled. i.e. you can't optimize one parameter, and then freeze it, and move on to 
+0. **Introducing eigenspace**: Normally, the dimensions in gradient descent is coupled. i.e. you can't optimize one parameter, and then freeze it, and move on to 
 optimize the next parameter. However, we can decouple in the eigenspace (Let's say the quadratic approximation of the function is w^TAw + b^Tw. The eigenspace
 is formed by the eigenvectors of A.) 
 
