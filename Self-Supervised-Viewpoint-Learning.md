@@ -61,7 +61,7 @@ linear regression model to regress the model output to the GT.
 
 Question: unlike cars where the position uniquely determines the viewpoint, 
 for face viewpoint, after fixing the head position, eyes can still move around. How does the network handle this? Or does it only
-discrinimate between different head poses, not the actual direction of the gaze?
+discriminate between different head poses, not the actual direction of the gaze?
 
 
 ## Further reading: 
