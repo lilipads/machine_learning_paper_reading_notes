@@ -4,7 +4,7 @@ Inspired by [Daniel Takeshi][1] and [Patrick Langechuan Liu][2]. The notes are j
 
 [1]: https://github.com/DanielTakeshi/Paper_Notes 
 [2]: https://patrick-llgc.github.io/Learning-Deep-Learning/
-
+* Universal Embeddings for Spatio-Temporal Tagging of Self-Driving Logs [paper](https://arxiv.org/abs/2011.06165)
 * [Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild](https://github.com/lilipads/machine_learning_paper_reading_notes/blob/master/unsupervised_learning_of_probably_symmetric_deformable_3D_objects.md)
 * [Why Momentum Really Works](https://github.com/lilipads/machine_learning_paper_reading_notes/blob/master/momentum.md)
 * [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://github.com/lilipads/machine_learning_paper_reading_notes/blob/master/ChauffeurNet.md)
